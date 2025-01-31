@@ -195,7 +195,7 @@
         </div>
       </section>
       <!-- Arivals and offers section -->
-       <section class="lg:px-28 md:px-24 max-sm:px-14 mt-28">
+       <section class="lg:px-28 md:px-24 max-sm:px-14 mt-28 mb-56">
        <h2 class="font-semibold text-4xl text-[#179800] mt-14">Arrival & Offers</h2>
        <!-- offers container -->
         <div class="lg:flex md:flex justify-between gap-3 max-sm:gap-y-5">
@@ -224,16 +224,16 @@
         </div>
        </section>
       <!-- grocery news section -->
-         <section class="lg:px-28 md:px-24 max-sm:px-14 ">
+         <section class="lg:px-28 md:px-24 max-sm:px-14 absolute  -mt-40 left-0 right-0 z-20">
             <!-- image and news content -->
-             <div class="bg-[#EFEBE3] md:flex lg:flex md:justify-between lg:justify-between md:items-center lg:items-center rounded-lg md:p-20 max-sm:p-14">
+             <div class="bg-[#EFEBE3] md:flex lg:flex md:justify-between lg:justify-between md:items-center lg:items-center rounded-lg md:p-7 max-sm:p-7">
               <!-- image content -->
                <div>
-                <img src="c2-assets/vegetable-busket.png" alt="">
+                <img class="max-sm:w-1/2 max-sm:mx-auto " src="c2-assets/vegetable-busket.png" alt="">
                </div>
                <!-- news content -->
                <div>
-                <h2 class="font-semibold text-4xl md:text-[#111111] max-sm:text-[#179800] mt-5">Get Grocery News</h2>
+                <h2 class="font-semibold text-4xl md:text-[#111111] max-sm:text-[#179800] mt-5 max-sm:text-center">Get Grocery News</h2>
                 <p class="font-normal text-xl text-[#111111] mt-5 max-sm:text-center">Exclusive training tips,tricks,product deals and more.</p>
                 <div class="max-sm:text-center"><input class="mt-5 p-4 rounded-lg" type="email" name="" id="" placeholder="Enter email...."></div><br>
                 <div class="max-sm:text-center"><button class="bg-[#179800] rounded-lg text-[#FFFFFF] text-xl font-normal md:px-5 md:py-3 max-sm:px-3 max-sm:py-1 mt-5">Subscribe</button></div>
@@ -241,8 +241,30 @@
              </div>
          </section>
     </main>
-    <footer>
-        
+    <footer class="bg-[#179800] md:h-screen max-sm:h-screen relative z-10 md:pt-96 max-sm:pt-96 lg:px-28 md:px-24 max-sm:px-14">
+        <!-- footer content -->
+         <div class="md:flex md:items-center justify-between">
+           <!-- footer logo + description -->
+           <div class="max-sm:mt-16">
+             <div><img src="c2-assets/logo-footer.png" alt=""></div>
+             <p class="font-thin text-xl text-[#FFFFFF] gap-y-4">Discover a world of treats, toys, and essentials <br> handpicked for yoour furry friends</p>
+           </div>
+           <div class="">
+              <p class="font-light text-xl text-[#FFFFFF] max-sm:mt-20">Product</p>
+              <p class="font-light text-xl text-[#FFFFFF] md:mt-5 max-sm:mt-16">Services</p>
+              <p class="font-light text-xl text-[#FFFFFF] md:mt-5 max-md:mt-16">Contact us</p>
+           </div>
+           <!-- social icons -->
+           <div class="md:mt-20 max-sm:mt-64">
+              <p class="font-light text-xl text-[#FFFFFF] max-sm:mt-12">Follow Us</p>
+              <div class="flex md:justify-between md:gap-8 max-sm:gap-8 items-center md:mt-2 max-sm:mt-2">
+                  <div><i class="fa-brands fa-facebook text-[#FFFFFF]"></i></div>
+                  <div><i class="fa-brands fa-instagram text-[#FFFFFF]"></i></div>
+                  <div><i class="fa-brands fa-linkedin text-[#FFFFFF]"></i></div>
+                  <div><i class="fa-brands fa-youtube text-[#FFFFFF]"></i></div>
+              </div>
+           </div>
+         </div>
     </footer>
 </body>
 </html>
